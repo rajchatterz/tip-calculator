@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- link to google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <!-- link css  -->
+    <link rel="stylesheet" href="./c.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="userInput">
+            <div class="bill">
+                <h3>Bill Total</h3>
+                <div class="billInput">
+                    <span>$</span>
+                    <input type="text" onkeyup="calculateBill()" id="totalBill">
+                </div>
+            </div>
+            <div class="tip">
+                <h3>Tip</h3>
+                <div class="tipInput">
+                    <span>%</span>
+                    <input type="text" onkeyup="calculateBill()" id="totalTip">
+                </div>
+            </div>
+        </div>
+        <div class="userInputDisplay">
+            <div class="leftHero">
+                <h3>People</h3>
+                <div class="btn">
+                    <button class="leftbtn" onclick="Increment()">+</button>
+                    <h3 id="numberOfPeople">1</h3>
+                    <button class="rightbtn" onclick="Decrement()">-</button>
+                </div>
+            </div>
+            <div class="rightHero">
+                <h3>Total per Person</h3>
+                <h1 id="displayUnit">$0.00</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script1.js"></script>
+</body>
+</html>

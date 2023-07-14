@@ -1,0 +1,114 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8990ec;
+  color: white;
+}
+.container{
+  background-color: #272639;
+  width: 360px;
+  height: 525px;
+  border-radius: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  margin: 100px auto;
+}
+.userInputDisplay{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 90px;
+}
+.userInput{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.billInput{
+  outline: none;
+  background-color: #353959;
+  padding: 5px;
+  border-radius: 30px;
+  padding: 7px 0.8rem;
+}
+.billInput input{
+  outline: none;
+  border: 0;
+  background-color: #353959;
+  color: white;
+  font-size: 19px;
+  padding: 0 0.8rem;
+  transition: 0.5s all ease-in-out;
+}
+.tip{
+  
+  display: flex;
+  flex-direction: column;
+}
+.tipInput{
+  outline: none;
+  background-color: #353959;
+  padding: 5px;
+  border-radius: 30px;
+  padding: 7px 0.8rem;
+  
+}
+.tipInput input{
+  outline: none;
+  border: 0;
+  background-color: #353959;
+  padding: 0 0.8rem;
+  color: white;
+  transition: 0.5s all ease-in-out;
+  font-size: 19px;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.leftbtn{
+  width: 40px;
+  height: 40px;
+  background-color: #8990ec;
+  border: none;
+  border-radius: 40px;
+  font-weight: 900;
+}
+.rightbtn{
+  width: 40px;
+  height: 40px;
+  background-color: #8990ec;
+  border: none;
+  border-radius: 40px;
+  font-weight: 900;
+}
+.leftHero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rightHero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.rightHero h3{
+  font-size: 16px;
+}
+.rightHero h1{
+  margin-top: -7px;
+}
